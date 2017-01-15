@@ -1,0 +1,88 @@
+.wrap.result h2{
+	color: #fff;
+	display: inline-block;
+	padding: 6px 12px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 4px;
+	font-size: 16px;
+}
+.true h2 {
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+}
+.false h2 {
+	background-color: #d9534f;
+	border-color: #d43f3a;
+}
+.nc-add-box,.nc-all-box  {
+	border: 1px solid #0085ba;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #006799,-1px -1px 1px #006799;
+	-webkit-box-shadow: 1px 1px 1px #006799,-1px -1px 1px #006799;
+	-moz-box-shadow: 1px 1px 1px #006799,-1px -1px 1px #006799;
+	-ms-box-shadow: 1px 1px 1px #006799,-1px -1px 1px #006799;
+	-o-box-shadow: 1px 1px 1px #006799,-1px -1px 1px #006799;
+	padding: 10px 10px 20px 10px;
+	width: 90%;
+	margin: 0 auto 20px;
+}
+.nc-all-box {
+	border: 1px solid #0085ba;
+	border-radius: 5px;
+}
+.nc-all-box input,  .nc-add-box input{
+	display: inline-block;
+	width: 30%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	margin: 0 5px 5px 0;
+}
+.nc-add-box input[type="submit"] {
+	height: 34px!important;
+	padding: 6px 12px!important;
+	line-height: 15px!important;
+	text-transform: uppercase;
+}
+.nc-all-box input[type="submit"] {
+	width: 14%;
+	margin: 0 1.55555% 0 0!important;
+	text-transform: uppercase;
+}
+.nc-all-box input[type="submit"]:last-of-type {
+	margin: 0!important;
+}
+.nc-all-box h4 {color: #d9534f;}
+.pagination {
+	text-align: center;
+}
+.pagination a {
+	display: inline-block;
+	margin: 0 0px 0 0;
+	padding: 5px 10px;
+	background: #fff;
+	color: #006799;
+	font-weight: bold;
+	text-decoration: none;
+	border: 1px solid #006799;
+	transition: background 0.3s ease-in-out;
+	-webkit-transition: background 0.3s ease-in-out;
+	-moz-transition: background 0.3s ease-in-out;
+	-ms-transition: background 0.3s ease-in-out;
+	-o-transition: background 0.3s ease-in-out;
+}
+.pagination a:hover {
+	background: rgba(0,103,153,0.2);
+	color: #fff;
+	border-color: rgba(0,103,153,0.2);
+}
+
